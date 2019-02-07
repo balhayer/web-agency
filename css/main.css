@@ -1,0 +1,154 @@
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #555;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #555;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #555;
+}
+
+.section-search input.autocomplete {
+  color: #000;
+}
+.input-field .prefix.active {
+  color: #000!important;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #000!important;
+}
+.autocomplete-content li .highlight {
+  color: red!important;
+}
+
+.fa-edit {
+  padding-top: 2px;
+  font-size: 5.5rem !important;
+}
+
+.fab {
+  cursor: default;
+}
+
+#service-title {
+  padding-top: 11px;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 16px;
+}
+
+.caption h1 {
+  font-weight: 700;
+}
+
+div.col.s4.m4 {
+  padding-left: 0;
+}
+
+.price-btn {
+  font-weight: 700; 
+  padding-top: 20px;
+  user-select: none !important;
+}
+
+.price-plan {
+  font-weight: bold;
+}
+
+.contact-btn {
+  user-select: none;
+}
+
+#staff {
+  font-size: 1.5rem;
+}
+
+
+.card-team {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.team-info {
+  display: none;
+}
+
+.team-info h5, h6 {
+  font-weight: bold;
+}
+
+.team-info h5 {
+  margin-top: 35px;
+}
+
+.team-info h6 {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+#team .card .card-image .card-title {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(245,124,0,0.9);
+  opacity: 50%;
+}
+
+.card-team:hover .team-info {
+  display: block;
+}
+
+.team-social {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+#price-team {
+  -moz-transform: scale(1.08); /* for Firefox, default 1*/
+  zoom:130%; /* For Chrome, IE, default 100%*/
+}
+
+#price-team h5 {
+  margin-top:0;
+}
+
+#price-team h4 {
+  margin-top:0.52rem;
+}
+
+#price-team .btn {
+  margin-top: 10px;
+}
+
+#team-desc {
+  max-width: 830px; 
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#email {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 420px) {
+  .brand-logo {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 80px;
+    margin-right: auto;
+    width: 100%;
+  }
+}
